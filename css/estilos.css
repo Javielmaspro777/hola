@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+.texto{
+    display: flex;
+    justify-content: space-around;
+  }
+picture , .video{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+@media (max-width: 600px) {
+
+.texto{
+    flex-direction: column;
+}
+}
