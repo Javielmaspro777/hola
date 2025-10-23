@@ -19,7 +19,10 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
   }
-  
+.hola{
+    font-size: 300px;
+    color: red;
+}
 @media (max-width: 600px) {
 
 .texto{
